@@ -29,8 +29,8 @@ router.get('/', async (req, res) => {
 });
 
 router.get('/search', async (req, res) => {
-    console.log("route search")
-    console.log(req.query)
+    // console.log("route search")
+    // console.log(req.query)
     try {
         // retrieve the title from the query string
         const title = req.query.title;
